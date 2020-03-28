@@ -10,9 +10,6 @@ jobs:
     - uses: actions/setup-node@v1.1.0
       
     # The package typescript compiles the typescript source code into JavaScript.
-    - name: Compile TS into JS
-      run: npm ci
-      run: npm build -if--present
-    - name: Test with Jest
-      run: npm ci
-      run: npm test
+    - run: npm ci
+    - run: npm build -if--present
+    - run: npm test
