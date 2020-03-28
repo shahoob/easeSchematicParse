@@ -13,3 +13,4 @@ jobs:
     - name: Compile TS into JS
       run: npm build -if--present
     - name: Test with Jest
+      run: npm test
