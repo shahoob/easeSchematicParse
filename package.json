@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/shahoob/easeSchematicParse/issues"
   },
-  "homepage": "https://github.com/shahoob/easeSchematicParse#readme"
+  "homepage": "https://github.com/shahoob/easeSchematicParse#readme",
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "jest": "^25.2.3",
+    "prettier": "^2.0.2",
+    "ts-jest": "^25.2.1",
+    "tslint": "^6.1.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.8.3"
+  }
 }
