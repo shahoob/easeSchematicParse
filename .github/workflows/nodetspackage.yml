@@ -11,6 +11,8 @@ jobs:
       
     # The package typescript compiles the typescript source code into JavaScript.
     - name: Compile TS into JS
+      run: npm ci
       run: npm build -if--present
     - name: Test with Jest
+      run: npm ci
       run: npm test
