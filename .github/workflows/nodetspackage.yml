@@ -1,0 +1,15 @@
+name: CI
+on: [release]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    # If you put them first before other steps, they become global. Means every step on one job will be applied with it. Same gos for 'runs-on'.
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1.1.0
+      
+    # The package typescript compiles the typescript source code into JavaScript.
+    - name: Compile TS into JS
+      run: npm build -if--present
+    - name: Test with Jest
