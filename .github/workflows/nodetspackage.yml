@@ -1,5 +1,5 @@
-name: CI
-on: [release]
+name: Node.js TS Package
+on: [release, push]
 
 jobs:
   build:
