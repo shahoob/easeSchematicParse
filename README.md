@@ -12,11 +12,11 @@ It's also written in TypeScript. For the first time!
 ### Install
 
 ```
-npm i easeschematic
+npm i easeschematicparse
 ```
 or
 ```
-npm install easeschematic
+npm install easeschematicparse
 ```
 
 ### Usage
