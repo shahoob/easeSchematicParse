@@ -44,6 +44,6 @@ console.log(newVer);
 
 /*
 1.0.0
-/*
+*/
 
 ```
